@@ -1,0 +1,14 @@
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\Chapter1_4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\Chapter1_4\bin\Debug\Chapter1_4.exe
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\Chapter1_4\bin\Debug\Chapter1_4.pdb
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\Chapter1_4\obj\x86\Debug\Chapter1_4.exe
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\Chapter1_4\obj\x86\Debug\Chapter1_4.pdb
+C:\Developer\Cracking The Coding Interview\Chapter1_1\Chapter1_4\bin\Debug\Chapter1_4.exe
+C:\Developer\Cracking The Coding Interview\Chapter1_1\Chapter1_4\bin\Debug\Chapter1_4.pdb
+C:\Developer\Cracking The Coding Interview\Chapter1_1\Chapter1_4\obj\x86\Debug\Chapter1_4.csprojResolveAssemblyReference.cache
+C:\Developer\Cracking The Coding Interview\Chapter1_1\Chapter1_4\obj\x86\Debug\Chapter1_4.exe
+C:\Developer\Cracking The Coding Interview\Chapter1_1\Chapter1_4\obj\x86\Debug\Chapter1_4.pdb
+E:\Data\Developer\Cracking The Coding Interview\Chapter1_1\Chapter1_4\bin\Debug\Chapter1_4.exe
+E:\Data\Developer\Cracking The Coding Interview\Chapter1_1\Chapter1_4\bin\Debug\Chapter1_4.pdb
+E:\Data\Developer\Cracking The Coding Interview\Chapter1_1\Chapter1_4\obj\x86\Debug\Chapter1_4.exe
+E:\Data\Developer\Cracking The Coding Interview\Chapter1_1\Chapter1_4\obj\x86\Debug\Chapter1_4.pdb

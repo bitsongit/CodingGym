@@ -1,0 +1,5 @@
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\PatternMatch\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\PatternMatch\bin\Debug\PatternMatch.exe
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\PatternMatch\bin\Debug\PatternMatch.pdb
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\PatternMatch\obj\x86\Debug\PatternMatch.exe
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\PatternMatch\obj\x86\Debug\PatternMatch.pdb

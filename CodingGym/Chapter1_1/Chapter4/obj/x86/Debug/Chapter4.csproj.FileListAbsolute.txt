@@ -1,0 +1,5 @@
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\Chapter4\bin\Debug\Chapter4.exe
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\Chapter4\bin\Debug\Chapter4.pdb
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\Chapter4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\Chapter4\obj\x86\Debug\Chapter4.exe
+C:\shalabhs\Study Material\Tech\Cracking The Coding Interview\Chapter1_1\Chapter4\obj\x86\Debug\Chapter4.pdb
