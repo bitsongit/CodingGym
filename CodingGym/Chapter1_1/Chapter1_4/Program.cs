@@ -12,12 +12,13 @@ namespace Chapter1_4
             while (true)
             {
                 Console.WriteLine("Enter String : ");
+
                 char[] str = new char[100];
                 str[0] = 'h';
                 str[1] = ' ';
                 str[2] = 's';
 
-                Console.WriteLine("URL will be : {0}", ReplaceSpaces(str,3));
+                Console.WriteLine("URL will be : {0}", ReplaceSpaces(str, 3));
             }
         }
 
@@ -56,5 +57,7 @@ namespace Chapter1_4
             }
             return new String(str);
         }
+
+
     }
 }
