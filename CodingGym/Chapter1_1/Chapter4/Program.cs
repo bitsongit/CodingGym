@@ -107,7 +107,12 @@ namespace Tree
                         Console.WriteLine("Operation : Weighted Traversal ");
                         tree.InWeightedOrder();
                         break;
-                        
+                    case 15:
+                        Console.Clear();
+                        Console.WriteLine("Operation : Right Side View ");
+                        tree.RightSideView();
+                        break;
+
                     default:
                         Console.Clear();
                         Console.ForegroundColor = ConsoleColor.Red;
@@ -144,6 +149,7 @@ namespace Tree
             Console.WriteLine("12.Print nodes at k distance from root");
             Console.WriteLine("13.Postorder Traversal Iteratively");
             Console.WriteLine("14.Weighted Traversal ");
+            Console.WriteLine("15.Right Side View ");
 
             Console.Write("\n\n\n\n\n\n\n\n\n Enter Option : ");
 
@@ -765,6 +771,96 @@ namespace Tree
                 }
             }
 
+            public List<int> RightSideView()
+            {
+                List<int> result = new List<int>();
+                RightSideView(root, result, 0);
+                foreach (var item in result)
+                {
+                    Console.Write(item + " ");
+                }
+                Console.WriteLine();
+
+                return result;
+            }
+
+            public void RightSideView(Node curr, List<int> result, int currDepth)
+            {
+                if (curr == null)
+                {
+                    return;
+                }
+                if (currDepth == result.Count())
+                {
+                    result.Add(curr.Item);
+                }
+
+                RightSideView(curr.Right, result, currDepth + 1);
+                RightSideView(curr.Left, result, currDepth + 1);
+
+            }
+
+            public Node DeleteNodeInBST(int key)
+            {
+                return this.DeleteNode(this.root, key);
+            }
+            private Node DeleteNode(Node root, int key)
+            {
+                if (root == null || root.Item == key)
+                {
+                    return this.DeleteRoot(root);
+                }
+
+                Node current = root;
+                while(true)
+                {
+                    if (key > current.Item)
+                    {
+                        if(current.Right == null || current.Right.Item == key)
+                        {
+                            current.Right = this.DeleteRoot(current.Right);
+                            break;
+                        }
+                        current = current.Right;
+                    }
+                    else
+                    {
+                        if (current.Left == null || current.Left.Item == key)
+                        {
+                            current.Left = this.DeleteRoot(current.Left);
+                            break;
+                        }
+                        current = current.Left;
+                    }
+
+                }
+
+                return root;
+            }
+            private Node DeleteRoot(Node root)
+            {
+                if (root == null)
+                {
+                    return null;
+                }
+                if (root.Right == null)
+                {
+                    return root.Left;
+                }
+                if (root.Left == null)
+                {
+                    return root.Right;
+                }
+
+                Node x = root.Right; // root.right should be the new root
+                while(x.Left!=null)
+                {
+                    x = x.Left; // find the left most node
+                }
+                x.Left = root.Left;
+
+                return root.Right;
+            }
         }
     }
 }
