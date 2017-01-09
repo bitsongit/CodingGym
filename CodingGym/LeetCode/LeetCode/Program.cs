@@ -12,9 +12,9 @@ namespace LeetCode
             while (true)
             {
                 Console.WriteLine("Enter String : ");
-                string str = Console.ReadLine();
+                //string str = Console.ReadLine();
 
-                // string str = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext";
+                 string str = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext";
 
                 Console.WriteLine("Longest file path length will be : {0}", lengthLongestPath(str).ToString());
 
@@ -25,6 +25,11 @@ namespace LeetCode
         // https://leetcode.com/problems/longest-absolute-file-path/
         public static int lengthLongestPath(string input)
         {
+            // O(n)
+            // First split this string into several paths.
+            //compute returns the length of a path without "\t".
+            //for each path, pop all the path that has more of equal "\t" before push it into stack.
+            //when isFile returns true, update the max length.
             int max = 0;
             int current = 0;
             char[] separator = new char[] { '\n' };
